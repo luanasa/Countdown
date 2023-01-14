@@ -1,0 +1,72 @@
+:root {
+    --bg-color: #E5E5E5;
+    --purple-text: #6C63FF;
+    --gray: #C8C8C8;
+    --general-text: #4D4C59;
+  }
+
+  *{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .countdown {
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+    gap: 82px;
+  }
+
+ .textdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+
+ }
+
+ .textdiv h1{
+    color: var(--purple-text);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+ }
+
+ #date ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ #date ul li p{
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0;
+    text-align: center;
+    color: var(--gray);
+}
+
+ #date ul li p span{
+    font-size: 5rem;
+    font-weight: 300;
+    color: var(--general-text);
+}
+
+.textdiv p {
+    color: var(--gray);
+    text-align: center;
+  }
+
+.textdiv button {
+    width: 160px;
+    height: 46px;
+    background: var(--purple-text);
+    border-radius: 10px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+  }
